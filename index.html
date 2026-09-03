@@ -1,20 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula Alura</title>
-  </head>
-  <body>
+    <title>Blog da Seleção</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #002776; 
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            border-bottom: 8px solid #FFDF00;
+        }
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            color: #FFDF00;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .post {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 6px solid #009B3A; /* Verde */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .post h2 {
+            color: #002776;
+            margin-top: 0;
+        }
+        .meta {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
     <header>
-        <h1>meus conhecimentos de programação</h1>
-        <p>Hoje vou contar sobre meus cnhecimentos de programação</p>
-
+        <img src="imagem.png" class="logo" alt="Escudo da Seleção Brasileira">
+        <h1>Blog da Seleção</h1>
+        <p>Acompanhando a nossa caminhada rumo ao Hexa!</p>
     </header>
-    <main>
-        <h2>Meu primeiro post</h2>
-        <p>vou compartilhar meus conhecimentos de programação</p>
-    </main>
-
-  </body>
+    <div class="container">
+        <article class="post">
+            <h2>Rumo ao próximo desafio</h2>
+            <div class="meta">Por: Central do Hexa</div>
+            <p>A Seleção Brasileira entra em campo esta semana focada nas Eliminatórias. O técnico ajusta os últimos detalhes táticos no ataque para garantir mais três pontos cruciais na tabela de classificação.</p>
+        </article>
+        <article class="post">
+            <h2>As novas promessas do futebol brasileiro</h2>
+            <div class="meta">Por: Central do Hexa</div>
+            <p>Jovens talentos que se destacaram na Europa ganham espaço na nova convocação. A velocidade pelas pontas promete ser a principal arma ofensiva do Brasil nos próximos confrontos.</p>
+        </article>
+    </div>
+</body>
 </html>
