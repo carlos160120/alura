@@ -1,101 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <title>Seleção Japonesa</title>
-
+    <title>Seleção Brasileira</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 40px;
             background-color: #f2f2f2;
         }
-
         header {
-            background-color: #0b3d91;
+            background-color: #009739;
             color: white;
             text-align: center;
             padding: 30px;
         }
-
+        header img {
+            width: 120px;
+            margin-top: 10px;
+        }
         main {
             width: 80%;
             margin: auto;
             background-color: white;
             padding: 20px;
         }
-
         article {
             margin-top: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
         }
-
         h2 {
-            color: #0b3d91;
+            color: #006437;
         }
-
+        button {
+            margin-right: 5px;
+            padding: 6px 12px;
+            cursor: pointer;
+        }
     </style>
-
 </head>
-
 <body>
-
     <header>
-        <h1>🇯🇵 Seleção Japonesa</h1>
-        <p>Conheça um pouco sobre os Samurais Azuis</p>
+        <h1>🇧🇷 Seleção Brasileira</h1>
+        <img src="images.png" alt="Escudo da Seleção Brasileira">
+        <p>Conheça um pouco sobre a história da nossa seleção</p>
     </header>
-
     <main>
-
         <article>
-
-            <h2>⚽ Sobre a seleção</h2>
-
+            <h2>⚽ Sobre a Seleção Brasileira</h2>
             <p><strong>Por: Seu Nome</strong></p>
-
             <p>
-                A Seleção Japonesa de Futebol representa o Japão
+                A Seleção Brasileira de Futebol representa o Brasil
                 nas principais competições internacionais.
-                A equipe é conhecida pelo apelido de Samurais Azuis.
+                É uma das seleções mais famosas da história do futebol.
             </p>
-
+            <button onclick="aumentar('coracao1')">
+                ❤️ <span id="coracao1">0</span>
+            </button>
+            <button onclick="aumentar('like1')">
+                👍 <span id="like1">0</span>
+            </button>
         </article>
-
-
         <article>
-
-            <h2>🇯🇵 Curiosidades sobre o Japão</h2>
-
+            <h2>🏆 Curiosidades sobre o Brasil</h2>
             <p><strong>Por: Seu Nome</strong></p>
-
             <p>
-                A seleção japonesa se tornou uma das principais
-                equipes de futebol da Ásia.
+                A Seleção Brasileira possui uma história muito importante
+                no futebol mundial.
             </p>
-
             <ul>
-                <li>O uniforme principal da seleção é azul.</li>
-
-                <li>A equipe é conhecida como Samurai Blue.</li>
-
-                <li>O Japão participa de competições internacionais importantes.</li>
-
-                <li>A seleção é conhecida pela velocidade e organização.</li>
-
-                <li>O futebol é um esporte muito popular no Japão.</li>
+                <li>O Brasil conquistou cinco Copas do Mundo.</li>
+                <li>O uniforme tradicional é amarelo, azul e verde.</li>
+                <li>A seleção também é conhecida como Canarinho.</li>
+                <li>Grandes jogadores já representaram o Brasil.</li>
+                <li>O futebol é um dos esportes mais populares do país.</li>
             </ul>
+            <button onclick="aumentar('coracao2')">
+                ❤️ <span id="coracao2">0</span>
+            </button>
+            <button onclick="aumentar('like2')">
+                👍 <span id="like2">0</span>
+            </button>
         </article>
         <article>
-
-            <h2>🏆 Futebol japonês</h2>
-
+            <h2>⭐ Grandes jogadores</h2>
             <p><strong>Por: Seu Nome</strong></p>
-
             <p>
-                O futebol japonês cresceu bastante ao longo dos anos.
-                Muitos jogadores japoneses também atuam em clubes
-                importantes de outros países.
+                Ao longo da história, muitos jogadores importantes
+                representaram a Seleção Brasileira, como Pelé,
+                Ronaldo, Ronaldinho Gaúcho, Romário e Neymar.
             </p>
+            <button onclick="aumentar('coracao3')">
+                ❤️ <span id="coracao3">0</span>
+            </button>
+            <button onclick="aumentar('like3')">
+                👍 <span id="like3">0</span>
+            </button>
         </article>
     </main>
 </body>
